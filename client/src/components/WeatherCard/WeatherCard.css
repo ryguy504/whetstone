@@ -1,0 +1,22 @@
+.card-wrapper {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.card {
+    width: 100%;
+    height: 100%;
+}
+.sunny {
+    color: #f4cb42;
+}
+.rainy {
+    color: blue;
+}
+.cloudy {
+    color: gray;
+}
+.snow {
+    color: lightblue;
+}

@@ -1,0 +1,29 @@
+.search-container,
+.search-button,
+.search-label
+ {
+    color: white !important;
+}
+.search-header h2 {
+    margin-right: 0.5em;
+    display: inline-block;
+}
+.header-icon {
+    animation-duration: 1s;
+    animation-name: loadingspin;
+    animation-iteration-count: infinite;
+}
+
+.iconsunny {
+    color: #f4cb42;
+}
+
+@keyframes loadingspin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
